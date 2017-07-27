@@ -7,6 +7,7 @@
   "sass": "stylesheets/_bootstrap.scss",
   "files": [
     "fonts",
+    "images",
     "javascripts",
     "stylesheets",
     "LICENSE",

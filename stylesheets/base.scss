@@ -1,0 +1,61 @@
+//= Some styles
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection {
+  background: $color-dark;
+  color: $color-white;
+  text-shadow: none;
+}
+
+::selection {
+  background: $color-dark;
+  color: $color-white;
+  text-shadow: none;
+}
+
+body {
+  padding-top: 91px;
+}
+
+p {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+//= Backgrounds
+.bg-dark {
+  background-color: $color-dark;
+  color: $color-light;
+}
+//= Navbar
+.navbar-header {
+  float: left;
+  margin-right: $grid-gutter-width/2;
+}
+
+.navbar-nav {
+  float: right;
+  margin-right: $grid-gutter-width/2;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 50px;
+}
+
+.navbar-brand > img {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+.navbar-toggle {
+  background-color: $color-dark;
+}

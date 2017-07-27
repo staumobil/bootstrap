@@ -1,0 +1,13 @@
+//= Mixin for margin/padding
+@mixin offset-gen($type, $pos, $value) {
+    #{$type}-#{$pos}: #{$value}px;
+}
+@each $type in margin, padding {
+     @for $i from 0 through 200 {
+        @each $pos in top, left, bottom, right {
+            .#{str_slice($type, 0, 1)}#{str_slice($pos, 0, 1)}-#{$i * 1} {
+                @include offset-gen($type, $pos, $i * 1)
+            }
+        }
+    }
+}
