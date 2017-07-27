@@ -1,0 +1,35 @@
+{
+  "name": "staumobil-bootstrap",
+  "version": "1.0.0",
+  "description": "staumobil-bootstrap is our internal toolkit for styles and scripts.",
+  "main": "javascripts/bootstrap.js",
+  "style": "stylesheets/_bootstrap.scss",
+  "sass": "stylesheets/_bootstrap.scss",
+  "files": [
+    "fonts",
+    "javascripts",
+    "stylesheets",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staumobil/bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "js"
+  ],
+  "author": "Johannes Berdin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/staumobil/bootstrap/issues"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0"
+  }
+}
