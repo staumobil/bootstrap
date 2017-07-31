@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-transparent" id="header" role="navigation">
+  <header class="navbar navbar-default navbar-fixed-top navbar-inverse" id="header" role="navigation">
 <div class="container">
   <div class="navbar-header">
     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
@@ -36,20 +36,7 @@
 
 </div>
 </header>
-
-  <section class="hero hero-big bg-traffic" id="hero">
-    <div class="overlay overlay-primary">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1>Bootstrap</h1>
-              <p class="lead">StauMobil's front-end design package.</p>
-          </div>
-      </div>
-    @yield('hero')
-  </div>
-  </section>
-  <section class="pt-50" id="main">
+  <section id="docs">
     <div class="container">
       <div class="row">
     @yield('main')
